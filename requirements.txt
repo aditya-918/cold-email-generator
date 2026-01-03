@@ -1,5 +1,6 @@
 streamlit==1.25.0
-langchain-community==0.4.1  # replace with the version you installed
+langchain==0.1.16
+langchain-community==0.3.31  # replace with the version you installed
 chromadb==0.4.2             # for vector storage
 beautifulsoup4==4.12.2      # for HTML parsing
 lxml==4.9.3                  # optional, improves HTML parsing speed
