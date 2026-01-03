@@ -30,7 +30,7 @@ def create_streamlit_app(llm, portfolio):
 
                                 portfolio.load_portfolio()
                                 jobs = llm.extract_jobs(data)
-                        st.write(jobs)
+                        
 
                         for job in jobs:
                                 skills = job.get('skills', [])
