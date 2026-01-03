@@ -1,9 +1,9 @@
-streamlit==1.25.0
-langchain==1.2.0
+streamlit==1.52.2
+langchain==1.2.6
 langchain-community==0.4.1  # replace with the version you installed
-chromadb==0.4.2             # for vector storage
-beautifulsoup4==4.12.2      # for HTML parsing
-pandas==1.5.3              # if you use CSV/portfolio data
-altair==4.2.2               # if you use charts in Streamlit
-numpy==1.23.5
-Pillow==9.5.0
+chromadb==1.4.0             # for vector storage
+beautifulsoup4==4.14.3      # for HTML parsing
+pandas==2.3.3              # if you use CSV/portfolio data
+altair==6.0.0               # if you use charts in Streamlit
+numpy==2.2.6
+Pillow==12.1.0
