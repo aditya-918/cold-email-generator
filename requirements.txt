@@ -3,5 +3,5 @@ langchain==0.1.16
 langchain-community==0.3.31  # replace with the version you installed
 chromadb==0.4.2             # for vector storage
 beautifulsoup4==4.12.2      # for HTML parsing
-pandas==2.1.0               # if you use CSV/portfolio data
+pandas==2.0.3              # if you use CSV/portfolio data
 altair==4.2.2               # if you use charts in Streamlit
